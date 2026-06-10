@@ -1,19 +1,47 @@
-## Getting Started
+# Practica: Estructuras Dinamicas Lineales
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Datos del Estudiante
+- **Nombre:** Evelyn Mayancela
+- **Curso:** Computacion P68
+- **Fecha:** 10/06/2025
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 1. Implementacion de estructuras dinamicas lineales
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+**Fecha:** 10/06/2025
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+**Descripcion:**
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Se implementaron ejemplos de uso de estructuras dinamicas lineales en Java:
+LinkedList para manejo de listas enlazadas, Queue y ArrayDeque como cola (FIFO),
+y ArrayDeque como pila (LIFO). Cada estructura fue probada con operaciones
+basicas de insercion, consulta y extraccion de elementos.
 
-## Dependency Management
+### Captura de salida en consola
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-"# icc-est-u2-dinamicasLineales"  
+![Captura de salida en consola](assets/01-captura-salida-consola.png)
+![alt text](image-1.png)
+### Captura del codigo de implementacion del ejercicio 1
+
+![Captura del codigo de implementacion](assets/02-app-implementacion-code.png)
+
+![alt text](image.png)
+---
+
+## 2. Ejercicio Palindromo
+
+**Fecha:** 10/06/2025
+
+**Descripcion:**
+
+Se implemento el metodo `esPalindromo` en la clase `Ejercicio2.java`.
+El metodo recibe una cadena de texto, almacena cada caracter en una pila,
+extrae los caracteres para formar el texto invertido y lo compara con el
+original. Si son iguales, la palabra es palindroma.
+
+### Metodo implementado
+
+```java
+![alt text](image-2.png)
+```
